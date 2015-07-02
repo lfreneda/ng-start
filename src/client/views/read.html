@@ -18,12 +18,12 @@
 		</tr>
 	</thead>
 	<tbody>
-		<tr ng-repeat="item in people">
-  		<td>{{item.id}}</td>
-  		<td>{{item.name}}</td>
-      <td>{{item.title}}</td>
-  		<td><a href="#/edit/{{item.id}}" class="btn btn-info btn-block">Editar</a></td>
-  		<td><button ng-click="deletar(item.id)" class="btn btn-danger btn-block">Deletar</button></td>
+		<tr ng-repeat="person in people">
+  		<td>{{person.id}}</td>
+  		<td>{{person.name}}</td>
+      <td>{{person.title}}</td>
+  		<td><a href="#/edit/{{person.id}}" class="btn btn-info btn-block">Editar</a></td>
+  		<td><button ng-click="delete(person.id)" class="btn btn-danger btn-block">Deletar</button></td>
 		</tr>
 	</tbody>
 </table>

@@ -8,7 +8,7 @@ App.factory('People', function($http, API){
 		create: function(item){
 			return $http.post(API, item);
 		},
-		profile: function(id){
+		get: function(id){
 			return $http.get(API + '/' +id);
 		},
 		update: function(item, id){
