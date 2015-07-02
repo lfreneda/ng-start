@@ -11,6 +11,10 @@ obj*
 ###################
 node_modules
 
+# Ignore Bower modules
+###################
+bower_components
+
 # Ignore mongo db
 ###################
 db/
