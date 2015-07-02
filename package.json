@@ -1,0 +1,29 @@
+{
+  "name": "ng-start",
+  "version": "1.0.0",
+  "description": "Getting started with angularjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lfreneda/ng-start.git"
+  },
+  "keywords": [
+    "angular",
+    "noob",
+    "n00b",
+    "newbie",
+    "start",
+    "starting",
+    "ng",
+    "basic"
+  ],
+  "author": "Luiz Freneda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lfreneda/ng-start/issues"
+  },
+  "homepage": "https://github.com/lfreneda/ng-start#readme"
+}
