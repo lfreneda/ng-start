@@ -1,0 +1,32 @@
+<div class="col-md-12">
+<div class="row">
+	<h2 class="text-center"><u>People</u></h2>
+</div>
+<div class="row">
+<a href="#/create" class="btn btn-primary">new person</a>
+</div>
+<br/>
+<div class="row">
+<table class="table table-bordered table-striped">
+	<thead>
+		<tr>
+			<td>Id</td>
+			<td>Name</td>
+      <td>Title</td>
+			<td></td>
+			<td></td>
+		</tr>
+	</thead>
+	<tbody>
+		<tr ng-repeat="item in people">
+  		<td>{{item.id}}</td>
+  		<td>{{item.name}}</td>
+      <td>{{item.title}}</td>
+  		<td><a href="#/edit/{{item.id}}" class="btn btn-info btn-block">Editar</a></td>
+  		<td><button ng-click="deletar(item.id)" class="btn btn-danger btn-block">Deletar</button></td>
+		</tr>
+	</tbody>
+</table>
+
+</div>
+</div>
